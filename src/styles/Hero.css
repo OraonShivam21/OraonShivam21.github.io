@@ -1,0 +1,65 @@
+#hero-section {
+  height: 100%;
+  width: 100%;
+}
+
+.mask {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.intro-img {
+  background-size: cover;
+  background-position: center;
+  object-position: top;
+  height: 110%;
+  width: 100%;
+}
+
+.mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+#hero-section .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+#hero-section .content {
+  font-size: 2rem;
+  padding: 0.6rem 0 1.5rem;
+}
+
+#hero-section .content p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.content p,
+.content h1 {
+  margin: 1rem 0;
+}
+
+.content .btn {
+  margin: 1rem 0.8rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .intro-img {
+        object-fit: cover;
+        object-position: top;
+    }
+}

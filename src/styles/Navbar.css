@@ -1,8 +1,12 @@
 nav {
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
 nav h1 {
@@ -32,6 +36,9 @@ li:hover {
 }
 
 @media screen and (max-width: 1040px) {
+  nav h1 {
+    font-size: 2rem;
+  }
   .nav-menu {
     flex-direction: column;
     justify-content: center;
