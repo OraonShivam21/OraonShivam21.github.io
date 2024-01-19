@@ -10,9 +10,6 @@ function App() {
     <>
       <div>
         <Navbar />
-
-        <hr />
-
         <Hero />
         <About />
         <Project />

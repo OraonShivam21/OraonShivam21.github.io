@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaTimes, FaBars } from "react-icons/fa";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <nav>
-        <a href="/"><h1>Portfolio.</h1></a>
-      <ul>
+      <h1>
+        <a href="/">Portfolio.</a>
+      </h1>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <a href="/">Home</a>
         </li>
@@ -15,7 +21,17 @@ const Navbar = () => {
         <li>
           <a href="#project-section">Project</a>
         </li>
+        <li>
+          <a href="#download">Resume</a>
+        </li>
       </ul>
+      <div className="hamburger-menu" onClick={handleClick}>
+        {click ? (
+          <FaTimes size={20} style={{ color: "#fff", zIndex: "10" }} />
+        ) : (
+          <FaBars size={20} style={{ color: "#fff", zIndex: "10" }} />
+        )}
+      </div>
     </nav>
   );
 };
