@@ -6,8 +6,16 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 100) setColor(true);
+    else setColor(false);
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <nav>
+    <nav className={color ? "nav-bg" : ""}>
       <h1>
         <a href="/">Portfolio.</a>
       </h1>

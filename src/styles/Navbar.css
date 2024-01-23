@@ -1,5 +1,4 @@
 nav {
-  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,6 +6,11 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 10;
+}
+
+.nav-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
 }
 
 nav h1 {
@@ -20,7 +24,7 @@ nav h1 {
 li {
   font-weight: 600;
   margin: 0 1rem;
-  padding: .6rem;
+  padding: 0.6rem;
   width: 7rem;
   text-align: center;
 }
@@ -28,7 +32,7 @@ li {
 li:hover {
   background-color: rgb(67, 67, 180);
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .hamburger-menu {
@@ -50,7 +54,7 @@ li:hover {
     top: 0;
     left: -100%;
     /* z-index: -3; */
-    transition: .45s;
+    transition: 0.45s;
   }
 
   .active {
