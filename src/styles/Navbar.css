@@ -59,6 +59,8 @@ li:hover {
 
   li {
     padding: 1rem 0;
+    text-align: center;
+    width: 20rem;
   }
 
   li a {
@@ -69,5 +71,6 @@ li:hover {
   .hamburger-menu {
     display: initial;
     cursor: pointer;
+    z-index: 10;
   }
 }
