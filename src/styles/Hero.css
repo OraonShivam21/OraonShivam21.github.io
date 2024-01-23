@@ -58,8 +58,11 @@
 }
 
 @media screen and (max-width: 1040px) {
-    .intro-img {
-        object-fit: cover;
-        object-position: top;
-    }
+  .intro-img {
+    object-fit: cover;
+    object-position: top;
+  }
+  .content .btn {
+    margin: 1rem 0.4rem;
+  }
 }
