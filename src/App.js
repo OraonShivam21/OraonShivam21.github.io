@@ -1,10 +1,14 @@
 import React from "react";
 import "./index.css";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Project from "./components/Project";
-import Footer from "./components/Footer";
+import {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Project,
+  Contact,
+  Footer,
+} from "./components/index";
 
 function App() {
   return (
@@ -13,7 +17,9 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Skills />
         <Project />
+        <Contact />
         <Footer />
       </div>
     </>
