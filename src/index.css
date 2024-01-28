@@ -7,6 +7,14 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: .6rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(67, 67, 180, .7);
+}
+
 body {
   background-color: #1a1a1a;
 }

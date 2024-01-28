@@ -1,10 +1,17 @@
 import React from "react";
+import "../styles/About.css";
 
 const About = () => {
   return (
-  <div id="about-section">
-    <h1 style={{height:"100vh"}}>About Section</h1>
-  </div>
+    <div id="about-section">
+      <div>
+        <h1>About Me</h1>
+        <p>Hello! I'm </p>
+      </div>
+      <div>
+        
+      </div>
+    </div>
   );
 };
 
