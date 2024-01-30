@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import {
   Navbar,
-  Hero,
+  Home,
   About,
   Skills,
   Project,
@@ -15,7 +15,7 @@ function App() {
     <>
       <div>
         <Navbar />
-        <Hero />
+        <Home />
         <About />
         <Skills />
         <Project />

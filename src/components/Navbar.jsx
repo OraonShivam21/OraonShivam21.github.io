@@ -15,28 +15,28 @@ const Navbar = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <nav className={color ? "nav-bg" : ""}>
+    <nav id="nav-menu" className={color ? "nav-bg" : ""}>
       <h1>
-        <a href="/">Portfolio.</a>
+        <a href="/">Shivam.</a>
       </h1>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <a href="/">Home</a>
+          <a className="nav-link home" href="/">Home</a>
         </li>
         <li>
-          <a href="#about-section">About Me</a>
+          <a className="nav-link about" href="#about">About Me</a>
         </li>
         <li>
-          <a href="#skills-section">Skills</a>
+          <a className="nav-link skills" href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#project-section">Project</a>
+          <a className="nav-link projects" href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact-section">Contact</a>
+          <a className="nav-link contact" href="#contact">Contact</a>
         </li>
         <li>
-          <a href="#download">Resume</a>
+          <a className="nav-link resume" href="#download">Resume</a>
         </li>
       </ul>
       <div className="hamburger-menu" onClick={handleClick}>

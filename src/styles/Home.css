@@ -1,4 +1,4 @@
-#hero-section {
+#home {
   height: 100%;
   width: 100%;
 }
@@ -29,7 +29,7 @@
   opacity: 0.7;
 }
 
-#hero-section .content {
+#home .content {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -37,12 +37,12 @@
   text-align: center;
 }
 
-#hero-section .content {
+#home .content {
   font-size: 2rem;
   padding: 0.6rem 0 1.5rem;
 }
 
-#hero-section .content p {
+#home .content p {
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;

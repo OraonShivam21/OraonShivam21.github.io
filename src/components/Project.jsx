@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = () => {
   return (
-  <div id="project-section">
+  <div id="projects">
     <h1 style={{height:"100vh"}}>Project Section</h1>
   </div>
   );

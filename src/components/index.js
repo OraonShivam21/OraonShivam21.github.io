@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Hero from "./Hero";
+import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
 import Project from "./Project";
@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 export {
   Navbar,
-  Hero,
+  Home,
   About,
   Skills,
   Project,

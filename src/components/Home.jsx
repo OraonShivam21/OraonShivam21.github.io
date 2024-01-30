@@ -1,10 +1,10 @@
 import React from "react";
 import LandscapeStudy from "../assets/landscape-study.png";
-import "../styles/Hero.css";
+import "../styles/Home.css";
 
-const Hero = () => {
+const Home = () => {
   return (
-  <div id="hero-section">
+  <div id="home">
     <div className="mask">
       <img className="intro-img" src={LandscapeStudy} alt="landscape-study" />
     </div>
@@ -12,12 +12,12 @@ const Hero = () => {
       <p>HI, I'M SHIVAM ORAON</p>
       <h1>NodeJS Developer</h1>
       <div>
-        <a className="btn" href="#project-section">Project</a>
-        <a className="btn btn-light" href="#download">Resume</a>
+        <a className="btn nav-link projects" href="#projects">Projects</a>
+        <a className="btn btn-light nav-link resume" href="#download">Resume</a>
       </div>
     </div>
   </div>
   );
 };
 
-export default Hero;
+export default Home;
