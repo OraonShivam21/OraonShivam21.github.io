@@ -19,7 +19,7 @@ body {
   background-color: #1a1a1a;
 }
 
-h1, h4, p, a {
+h1, h2, h3, h4, p, a {
   color: #fff;
   text-decoration: none;
 }

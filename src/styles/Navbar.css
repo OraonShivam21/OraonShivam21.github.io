@@ -1,4 +1,4 @@
-nav {
+#nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +33,15 @@ li:hover {
   background-color: rgb(67, 67, 180);
   cursor: pointer;
   transition: 0.3s;
+}
+
+.resume {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
 }
 
 .hamburger-menu {
@@ -70,6 +79,10 @@ li:hover {
   li a {
     font-size: 2rem;
     z-index: 0;
+  }
+
+  .resume {
+    font-size: 2rem;
   }
 
   .hamburger-menu {

@@ -12,8 +12,8 @@ const Home = () => {
       <p>HI, I'M SHIVAM ORAON</p>
       <h1>NodeJS Developer</h1>
       <div>
-        <a className="btn nav-link projects" href="#projects">Projects</a>
-        <a className="btn btn-light nav-link resume" href="#download">Resume</a>
+        <a className="btn nav-link" href="#projects">Projects</a>
+        <a className="btn btn-light" href="#download">Resume</a>
       </div>
     </div>
   </div>

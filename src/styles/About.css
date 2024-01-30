@@ -1,0 +1,38 @@
+#about {
+  padding: 7rem;
+}
+
+.about-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+#user-detail-name {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1040px) {
+  #about {
+    padding: 5rem 3rem;
+  }
+  .about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  #user-detail-name {
+    font-size: 1.4rem;
+  }
+  .about-body {
+    flex-direction: column-reverse;
+    padding: 1rem 0;
+  }
+}
