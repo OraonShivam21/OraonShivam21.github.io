@@ -12,17 +12,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 5rem;
   padding: 2rem 0;
 }
 
 #user-detail-name {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-body-content {
+  flex: 2;
+}
+
+.about-body-profile {
+  flex: 1.2;
+}
+
+.about-body-profile img {
+  border: .6rem solid rgb(67, 67, 180);
+  border-radius: 50%;
+  width: 20rem;
 }
 
 @media screen and (max-width: 1040px) {
   #about {
-    padding: 5rem 3rem;
+    padding: 5rem 2rem;
   }
   .about-heading {
     font-size: 2rem;
@@ -30,9 +44,14 @@
   }
   #user-detail-name {
     font-size: 1.4rem;
+    text-align: center;
   }
   .about-body {
     flex-direction: column-reverse;
     padding: 1rem 0;
+    gap: 1rem;
+  }
+  .about-body-profile img {
+    width: 16rem;
   }
 }
