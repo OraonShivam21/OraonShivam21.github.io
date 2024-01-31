@@ -63,7 +63,7 @@ const Skills = () => {
             <p className="skills-card-name">VS Code</p>
           </div>
           <div className="skills-card">
-            <img className="skills-card-img" src={vercel} alt="vercel" />
+            <img style={{width: "10rem"}} className="skills-card-img" src={vercel} alt="vercel" />
             <p className="skills-card-name">Vercel</p>
           </div>
           <div className="skills-card">
