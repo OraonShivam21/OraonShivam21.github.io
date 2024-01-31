@@ -76,10 +76,20 @@ const Skills = () => {
       </div>
       <div id="stats">
         <h1 className="stats-heading">Git Stats</h1>
-        <div className="github-calendar-div">
-          <div className="calendar-container calendar react-activity-calendar">
-            <GitHubCalendar username={username} />
-          </div>
+        <div className="calendar-container calendar react-activity-calendar">
+          <GitHubCalendar className="github-calendar" username={username} />
+          {/* <img src="http://ghchart.rshah.org/OraonShivam21" alt="Github chart" /> */}
+        </div>
+        <div className="github-statistics">
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com?user=OraonShivam21&theme=tokyonight"
+            alt="github-streak"
+          />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OraonShivam21&layout=compact&theme=tokyonight" alt="top-langs" />
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=OraonShivam21&show_icons=true&theme=tokyonight"
+            alt="github-stats"
+          />
         </div>
       </div>
     </div>
