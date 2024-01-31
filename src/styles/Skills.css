@@ -1,0 +1,17 @@
+#skills {
+  padding: 8rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#skills .skills-heading {
+  margin-bottom: 2rem;
+}
+
+.technical-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10rem;
+  align-items: center;
+  padding: 1rem 10rem;
+}
