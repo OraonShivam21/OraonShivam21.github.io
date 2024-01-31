@@ -34,7 +34,15 @@
   width: 20rem;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1024px) {
+  .about-body {
+    flex-direction: column-reverse;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 762px) {
   #about {
     padding: 5rem 2rem;
   }
@@ -45,11 +53,6 @@
   #user-detail-name {
     font-size: 1.4rem;
     text-align: center;
-  }
-  .about-body {
-    flex-direction: column-reverse;
-    padding: 1rem 0;
-    gap: 1rem;
   }
   .about-body-profile img {
     width: 16rem;
