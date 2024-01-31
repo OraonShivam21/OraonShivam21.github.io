@@ -11,7 +11,7 @@ const Project = () => {
   const WonderWaveGit = "https://github.com/OraonShivam21/wonderwave-travels";
   const EdifyAppLink = "https://edify-educational-app.vercel.app/";
   const EdifyGit = "https://github.com/OraonShivam21/edify-educational-app";
-
+  
   return (
     <div id="projects">
       <h1 className="projects-heading">My Projects</h1>
