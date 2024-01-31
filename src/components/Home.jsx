@@ -1,10 +1,18 @@
 import React from "react";
 import LandscapeStudy from "../assets/landscape-study.png";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "../styles/Home.css";
 
 const Home = () => {
   const resumePath =
     "https://drive.google.com/file/d/10SF2l87jaZJaF7721jgBaRSclOFfKrVf/view?usp=sharing";
+  
+  const [text] = useTypewriter({
+    words: ["A Fullstack Developer", "A MERN Developer", "A Backend Developer"],
+    loop: {},
+    typeSpeed: 120,
+    deleteSpeed: 80,
+  })
 
   return (
     <div id="home">
@@ -13,7 +21,13 @@ const Home = () => {
       </div>
       <div className="content">
         <h1>HI, I'M SHIVAM ORAON</h1>
-        <p>Backend Developer</p>
+        <p className="typewriter">
+          {"I'm "}
+          {text}{" "}
+          <span>
+            <Cursor cursorStyle="|"></Cursor>
+          </span>{" "}
+        </p>
         <div className="content-buttons">
           <a className="btn" href="#projects">
             Projects
