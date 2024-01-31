@@ -61,7 +61,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <button className="nav-link resume" onClick={handleDownloadResume}>
+          <button id="resume-button-1" className="nav-link resume" onClick={handleDownloadResume}>
             Resume
           </button>
         </li>

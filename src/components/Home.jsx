@@ -4,8 +4,16 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "../styles/Home.css";
 
 const Home = () => {
-  const resumePath =
-    "https://drive.google.com/file/d/10SF2l87jaZJaF7721jgBaRSclOFfKrVf/view?usp=sharing";
+  const handleDownloadResume = () => {
+    window.open("https://drive.google.com/file/d/10SF2l87jaZJaF7721jgBaRSclOFfKrVf/view?usp=sharing", "_blank");
+
+    const a = document.createElement("a");
+    a.href = "../resume/resume.pdf";
+    a.download = "Shivam_Oraon_Resume.pdf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
   
   const [text] = useTypewriter({
     words: ["A Fullstack Developer", "A MERN Developer", "A Backend Developer"],
@@ -32,15 +40,13 @@ const Home = () => {
           <a className="btn" href="#projects">
             Projects
           </a>
-          <a
+          <button
+            id="resume-button-2"
             className="btn btn-light"
-            href={resumePath}
-            target="_blank"
-            rel="noopener noreferrer"
-            download="Shivam_Oraon_Resume.pdf"
+            onClick={handleDownloadResume}
           >
             Resume
-          </a>
+          </button>
         </div>
       </div>
     </div>
