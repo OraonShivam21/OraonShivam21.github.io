@@ -1,8 +1,96 @@
 #projects {
-    margin: 7rem 0;
-    text-align: center;
+  padding: 7rem 2rem;
+  text-align: center;
 }
 
 .projects-heading {
-    font-size: 3rem;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  padding: 3rem;
+  margin: 2rem 5rem;
+}
+
+.project-img-git-link {
+  flex: 1;
+}
+
+.project-git-dep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+.project-github-link {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background-color: rgb(67, 67, 180);
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #fff;
+  font-weight: 600;
+}
+
+.project-deployed-link {
+  background: transparent;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #fff;
+  font-weight: 600;
+}
+
+.project-github-link:hover,
+.project-deployed-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.project-title-desc-stack {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-card {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .project-card {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .projects-heading {
+    font-size: 2rem;
+  }
+  .project-card {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
 }
