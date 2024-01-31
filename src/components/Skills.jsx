@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubCalendar from "react-github-calendar";
 import {
   css3,
   expressjs,
@@ -15,6 +16,7 @@ import {
 import "../styles/Skills.css";
 
 const Skills = () => {
+  const username = "OraonShivam21";
   return (
     <div class="skill-stats">
       <div id="skills">
@@ -63,12 +65,20 @@ const Skills = () => {
             <p className="skills-card-name">VS Code</p>
           </div>
           <div className="skills-card">
-            <img style={{width: "10rem"}} className="skills-card-img" src={vercel} alt="vercel" />
+            <img className="skills-card-img" src={vercel} alt="vercel" />
             <p className="skills-card-name">Vercel</p>
           </div>
           <div className="skills-card">
             <img className="skills-card-img" src={netlify} alt="netlify" />
             <p className="skills-card-name">Netlify</p>
+          </div>
+        </div>
+      </div>
+      <div id="stats">
+        <h1 className="stats-heading">Git Stats</h1>
+        <div className="github-calendar-div">
+          <div className="calendar-container calendar react-activity-calendar">
+            <GitHubCalendar username={username} />
           </div>
         </div>
       </div>

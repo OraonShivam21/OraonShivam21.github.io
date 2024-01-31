@@ -3,8 +3,9 @@
   box-shadow: inset 0px 0px 400px rgba(0, 0, 0, 1);
 }
 
-#skills {
-  padding: 8rem 0;
+#skills,
+#stats {
+  padding: 8rem 0 4rem;
   font-size: 2rem;
   text-align: center;
 }
@@ -63,4 +64,17 @@
   .skills-card-img {
     width: 4rem;
   }
+}
+
+.calendar-container {
+  background-color: rgba(112, 112, 255, 0.2);
+  color: #fff;
+  margin: auto;
+  padding: 5rem;
+  text-align: center;
+  width: 90%;
+}
+
+.calendar-container GitHubCalendar {
+  background-color: #fff;
 }
