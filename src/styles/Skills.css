@@ -54,7 +54,8 @@
 }
 
 @media screen and (max-width: 762px) {
-  .skills-heading {
+  .skills-heading,
+  .stats-heading {
     font-size: 2rem;
   }
   .technical-skills {
