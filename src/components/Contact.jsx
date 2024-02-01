@@ -6,7 +6,7 @@ import "../styles/Contact.css";
 
 const Contact = () => {
   const handleButtonClick = () => {
-    const phoneNumber = "8377950302";
+    const phoneNumber = "+918377950302";
     window.location.href = `tel:${phoneNumber}`;
   };
   const emaillink = () => {
