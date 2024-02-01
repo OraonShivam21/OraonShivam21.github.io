@@ -91,6 +91,11 @@
   .project-card {
     flex-direction: column;
     gap: 2rem;
+    font-size: .9rem;
     padding: 2rem;
+  }
+  .project-github-link,
+  .project-deployed-link {
+    padding: .8rem 2rem;
   }
 }
