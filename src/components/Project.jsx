@@ -45,10 +45,7 @@ const Project = () => {
           <div className="project-title-desc-stack">
             <h2 className="project-title">Edify Educational App</h2>
             <p className="project-description">
-              Grow you skills to advance your career path - Edify offers you
-              with variety of courses which helps you in your skill development
-              and makes you confident for the job. Enroll and get started. Edify
-              - Education Website is an online platform where Edify offers
+              Edify Educational App is an online platform where Edify offers
               various courses for users or students who are tech enthusiasts and
               are willing to either learn a new skill in technical field or are
               willing to upskill themselves.
