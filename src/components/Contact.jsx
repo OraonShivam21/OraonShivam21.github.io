@@ -10,15 +10,13 @@ const Contact = () => {
     window.location.href = `tel:${phoneNumber}`;
   };
   const emaillink = () => {
-    window.location.href = "oraonshivam.0302@gmail.com";
+    window.location.href = "mailTo:oraonshivam.0302@gmail.com";
   };
 
   return (
     <section className="Contact-maindiv" id="contact">
       <div className="heading-div">
-          <h1 className="mainheading">
-            Contact Me
-          </h1>
+        <h1 className="mainheading">Contact Me</h1>
       </div>
 
       <div className="contact-cards">
@@ -67,39 +65,49 @@ const Contact = () => {
               method="POST"
             >
               <div className="contact-group">
-                <input placeholder="*" type="text" required="" />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder=""
+                  required
+                />
                 <label htmlFor="name">Name</label>
               </div>
               <div className="contact-group">
                 <input
-                  placeholder="*"
                   type="email"
                   id="email"
                   name="email"
-                  required=""
+                  placeholder=""
+                  required
                 />
                 <label htmlFor="email">Email</label>
               </div>
               <div className="contact-group">
                 <input
-                  placeholder="*"
                   type="text"
                   id="subject"
                   name="_subject"
-                  required=""
+                  placeholder=""
+                  required
                 />
                 <label htmlFor="subject">Subject</label>
               </div>
               <div className="contact-group">
                 <textarea
-                  placeholder="*"
                   id="comment"
                   name="message"
                   rows="5"
-                  required=""
+                  placeholder=""
+                  required
                 ></textarea>
                 <label htmlFor="comment">Message</label>
-                <input type="hidden" name="_template" value="box"></input>
+                <input
+                  type="hidden"
+                  name="_template"
+                  value="box"
+                ></input>
               </div>
               <button type="submit">Send Message</button>
             </form>
