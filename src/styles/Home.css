@@ -56,7 +56,30 @@
   margin: 1rem 0.8rem;
 }
 
-@media screen and (max-width: 762px) {
+.home-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: absolute;
+  left: 38%;
+  bottom: -50%;
+}
+
+.home-socials a {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: .5rem .5rem .4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .home-socials {
+    left: 36%;
+    bottom: -40%;
+  }
+}
+
+@media screen and (max-width: 862px) {
   .intro-img {
     object-fit: cover;
     object-position: top;
@@ -76,5 +99,9 @@
   .content-buttons {
     display: flex;
     flex-direction: column;
+  }
+  .home-socials {
+    left: 30%;
+    bottom: -40%;
   }
 }

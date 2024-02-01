@@ -50,10 +50,10 @@ const Footer = () => {
             projects and design challenges.
           </p>
           <div className="socials">
-            <a href="https://github.com/OraonShivam21">
+            <a href="https://github.com/OraonShivam21" target="_blank" rel="noreferrer">
               <FaGithub size={30} style={{ color: "#fff" }} />
             </a>
-            <a href="https://www.linkedin.com/in/shivam-oraon-3b5790284">
+            <a href="https://www.linkedin.com/in/shivam-oraon-3b5790284" target="_blank" rel="noreferrer">
               <FaLinkedin
                 size={30}
                 style={{ color: "#fff", marginLeft: "1rem" }}
