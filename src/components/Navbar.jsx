@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import Shivam_Oraon_Resume from "../resume/shivam_oraon_resume.pdf";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
@@ -15,10 +16,10 @@ const Navbar = () => {
   window.addEventListener("scroll", changeColor);
 
   const handleDownloadResume = () => {
-    window.open("https://drive.google.com/file/d/10SF2l87jaZJaF7721jgBaRSclOFfKrVf/view?usp=sharing", "_blank");
+    window.open(Shivam_Oraon_Resume);
 
     const a = document.createElement("a");
-    a.href = "../resume/resume.pdf";
+    a.href = Shivam_Oraon_Resume;
     a.download = "Shivam_Oraon_Resume.pdf";
     document.body.appendChild(a);
     a.click();
@@ -61,7 +62,11 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <button id="resume-button-1" className="nav-link resume" onClick={handleDownloadResume}>
+          <button
+            id="resume-button-1"
+            className="nav-link resume"
+            onClick={handleDownloadResume}
+          >
             Resume
           </button>
         </li>

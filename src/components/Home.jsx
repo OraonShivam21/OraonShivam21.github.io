@@ -2,17 +2,15 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import LandscapeStudy from "../assets/landscape-study.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Shivam_Oraon_Resume from "../resume/shivam_oraon_resume.pdf";
 import "../styles/Home.css";
 
 const Home = () => {
   const handleDownloadResume = () => {
-    window.open(
-      "https://drive.google.com/file/d/10SF2l87jaZJaF7721jgBaRSclOFfKrVf/view?usp=sharing",
-      "_blank"
-    );
+    window.open(Shivam_Oraon_Resume);
 
     const a = document.createElement("a");
-    a.href = "../resume/resume.pdf";
+    a.href = Shivam_Oraon_Resume;
     a.download = "Shivam_Oraon_Resume.pdf";
     document.body.appendChild(a);
     a.click();
