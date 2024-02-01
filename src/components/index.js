@@ -4,6 +4,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Project from "./Project";
 import Contact from "./Contact";
+import ScrollToTopButton from "./Scroll";
 import Footer from "./Footer";
 
 export {
@@ -13,5 +14,6 @@ export {
   Skills,
   Project,
   Contact,
+  ScrollToTopButton,
   Footer,
 };

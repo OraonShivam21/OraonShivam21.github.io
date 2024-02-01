@@ -7,6 +7,7 @@ import {
   Skills,
   Project,
   Contact,
+  ScrollToTopButton,
   Footer,
 } from "./components/index";
 
@@ -20,6 +21,7 @@ function App() {
         <Skills />
         <Project />
         <Contact />
+        <ScrollToTopButton />
         <Footer />
       </div>
     </>
