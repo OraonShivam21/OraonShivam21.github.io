@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5ef7175b.css",
-    "main.js": "/static/js/main.4665e541.js",
+    "main.js": "/static/js/main.78a19ce6.js",
     "static/media/tracker-jet-app.png": "/static/media/tracker-jet-app.cddb59091d5b28a82996.png",
     "static/media/wonderwave-travels-project.png": "/static/media/wonderwave-travels-project.0084f1c0aacbaa2a01d4.png",
     "static/media/edify-educational-project.png": "/static/media/edify-educational-project.f8d4aa0c64bf9dca751d.png",
-    "static/media/talent_trove_home.png": "/static/media/talent_trove_home.ca245938b2c3ecbd664c.png",
     "static/media/shivam_oraon_resume.pdf": "/static/media/shivam_oraon_resume.84304fe439fe711965b0.pdf",
     "static/media/landscape-study.png": "/static/media/landscape-study.988740399d99edd6702f.png",
     "static/media/Shivam_Oraon_Profile.png": "/static/media/Shivam_Oraon_Profile.9b4dc74bc66c5efc7975.png",
+    "static/media/talent_trove_home.png": "/static/media/talent_trove_home.898b3aac86de856dfcd3.png",
     "static/media/netlify.png": "/static/media/netlify.958399b5da63b19c3730.png",
     "static/media/reactjs.png": "/static/media/reactjs.d7e41385f1c02c0e5de5.png",
     "static/media/nodejs.png": "/static/media/nodejs.c540873ebb05a18b96f4.png",
@@ -20,10 +20,10 @@
     "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
     "index.html": "/index.html",
     "main.5ef7175b.css.map": "/static/css/main.5ef7175b.css.map",
-    "main.4665e541.js.map": "/static/js/main.4665e541.js.map"
+    "main.78a19ce6.js.map": "/static/js/main.78a19ce6.js.map"
   },
   "entrypoints": [
     "static/css/main.5ef7175b.css",
-    "static/js/main.4665e541.js"
+    "static/js/main.78a19ce6.js"
   ]
 }
