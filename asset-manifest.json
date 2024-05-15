@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ef7175b.css",
-    "main.js": "/static/js/main.78a19ce6.js",
+    "main.js": "/static/js/main.c04372e0.js",
     "static/media/tracker-jet-app.png": "/static/media/tracker-jet-app.cddb59091d5b28a82996.png",
     "static/media/wonderwave-travels-project.png": "/static/media/wonderwave-travels-project.0084f1c0aacbaa2a01d4.png",
     "static/media/edify-educational-project.png": "/static/media/edify-educational-project.f8d4aa0c64bf9dca751d.png",
@@ -20,10 +20,10 @@
     "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
     "index.html": "/index.html",
     "main.5ef7175b.css.map": "/static/css/main.5ef7175b.css.map",
-    "main.78a19ce6.js.map": "/static/js/main.78a19ce6.js.map"
+    "main.c04372e0.js.map": "/static/js/main.c04372e0.js.map"
   },
   "entrypoints": [
     "static/css/main.5ef7175b.css",
-    "static/js/main.78a19ce6.js"
+    "static/js/main.c04372e0.js"
   ]
 }
