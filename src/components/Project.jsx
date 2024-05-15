@@ -46,7 +46,7 @@ const Project = () => {
             </div>
           </div>
           <div className="project-title-desc-stack">
-            <h2 className="project-title">Edify Educational App</h2>
+            <h2 className="project-title">Talent Trove App</h2>
             <p className="project-description">
               Talent Trove is a full-fledged website that supports the user's
               interaction around the pages. The main functionality of this
