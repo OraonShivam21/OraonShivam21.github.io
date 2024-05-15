@@ -2,9 +2,12 @@ import React from "react";
 import TrackerJetApp from "../assets/tracker-jet-app.png";
 import WonderWaveTravels from "../assets/wonderwave-travels-project.png";
 import EdifyEducationalApp from "../assets/edify-educational-project.png";
+import TalentTroveApp from "../assets/talent_trove_home.png";
 import "../styles/Project.css";
 
 const Project = () => {
+  const talentTroveGit = "https://github.com/OraonShivam21/talent-trove";
+  const talentTroveAppLink = "https://talent-trove-app.onrender.com/";
   const trackerJetAppLink = "https://tracker-jet-app.vercel.app/";
   const trackerJetAppGit = "https://github.com/OraonShivam21/tracker-jet-app";
   const WonderWaveAppLink = "https://wonderwave-travels.vercel.app/";
@@ -16,6 +19,48 @@ const Project = () => {
     <div id="projects">
       <h1 className="projects-heading">My Projects</h1>
       <div className="project-details">
+        <div className="project-card">
+          <div className="project-img-git-link">
+            <img
+              className="project-image"
+              src={TalentTroveApp}
+              alt="edify-educational-app"
+            />
+            <div className="project-git-dep">
+              <a
+                href={talentTroveGit}
+                className="project-github-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href={talentTroveAppLink}
+                className="project-deployed-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live
+              </a>
+            </div>
+          </div>
+          <div className="project-title-desc-stack">
+            <h2 className="project-title">Edify Educational App</h2>
+            <p className="project-description">
+              Talent Trove is a full-fledged website that supports the user's
+              interaction around the pages. The main functionality of this
+              website is to showcase the various job offers in different banners
+              and page dedicated to each job description. Here recruiters can
+              upload their own job descriptions according to their requirements
+              and the potential candidates can go through as well.
+            </p>
+            <h3 className="project-tech-stack">
+              React.JS | React-Router | React-Router-DOM | React-Icons |
+              React-Spinners | React-Toastify | JSON-Server
+            </h3>
+          </div>
+        </div>
         <div className="project-card">
           <div className="project-img-git-link">
             <img
